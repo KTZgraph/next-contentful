@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+// Layout wszystko opakowuje więc children mają dostęp
 export default function Layout({ children }) {
   return (
     <div className="layout">
