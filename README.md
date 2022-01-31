@@ -10,3 +10,11 @@ npx create-next-app [your-site-name] -e https://github.com/iamshaunjp/next-conte
 
 # darmowe obrazki png
 https://www.pngall.com/
+
+# white list domain
+module.exports = {
+    images: {
+        // whitelistowanie domen
+        domains: ["images.ctfassets.net"]
+    }
+}
